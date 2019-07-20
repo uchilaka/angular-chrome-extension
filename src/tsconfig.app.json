@@ -7,5 +7,9 @@
   "exclude": [
     "test.ts",
     "**/*.spec.ts"
+  ],
+  "include": [
+    "../projects/my-font-awesome/src/public-api.ts",
+    "../projects/shared-components/src/public-api.ts"
   ]
 }
