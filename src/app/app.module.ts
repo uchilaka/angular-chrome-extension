@@ -6,8 +6,8 @@ import { AppComponent } from './app.component';
 import { MyFontAwesomeModule } from '@larcity/ng-font-awesome';
 import { RouterModule } from '@angular/router';
 import { appRoutes } from './app.routes';
-import { StartModule } from './start/start.module';
-import { LobbyModule } from './lobby/lobby.module';
+import { StartModule } from './containers/start/start.module';
+import { LobbyModule } from './containers/lobby/lobby.module';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 

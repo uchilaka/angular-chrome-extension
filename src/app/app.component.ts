@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { RunContextService } from './services';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ng-chrome-extension';
+
+  constructor(private context: RunContextService) {}
 }
