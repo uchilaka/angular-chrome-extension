@@ -1,0 +1,6 @@
+{
+  "files.associations": {
+    // Rely on this at your own risk! Some json processors will choke on inline comments
+    "**/*.json": "jsonc"
+  }
+}
