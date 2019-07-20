@@ -21,7 +21,7 @@ export class RunContextService {
         !!chrome.runtime.id
         // && typeof chrome.runtime.getURL === 'function'
       ) {
-        console.warn('chrome plugin!');
+        console.log('chrome plugin detected!');
         body.classList.add('chrome-plugin');
         // const contextURL = chrome.runtime.getURL();
         // console.warn(`Context URL: ${contextURL}`);
