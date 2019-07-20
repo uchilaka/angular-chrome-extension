@@ -1,0 +1,18 @@
+:host {
+  position: fixed;
+  // Make this so the button appears above everything in it's component context
+  z-index: 10;
+  bottom: 2rem;
+  right: 2rem;
+
+  button {
+    width: 4rem;
+    height: 4rem;
+    box-sizing: border-box;
+    border-radius: 50%;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}

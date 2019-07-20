@@ -17,6 +17,20 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "my-font-awesome": [
+        "dist/my-font-awesome"
+      ],
+      "my-font-awesome/*": [
+        "dist/my-font-awesome/*"
+      ],
+      "shared-components": [
+        "dist/shared-components"
+      ],
+      "shared-components/*": [
+        "dist/shared-components/*"
+      ]
+    }
   }
 }
