@@ -1,8 +1,19 @@
 {
-  "name": "shared-components",
+  "name": "@larcity/ng-chrome-shared-components",
   "version": "0.0.1",
+  "contributors": [
+    { "name": "Uche", "email": "uche@lar.city", "url": "https://medium.com/@uchechilaka" }
+  ],
+  "publisher": "LarCity LLC<http://lar.city>",
   "peerDependencies": {
     "@angular/common": "^7.2.0",
-    "@angular/core": "^7.2.0"
-  }
+    "@angular/core": "^7.2.0",
+    "@larcity/ng-font-awesome": "^0.0.1",
+    "@fortawesome/angular-fontawesome": "^0.4.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.19",
+    "@fortawesome/free-brands-svg-icons": "^5.9.0",
+    "@fortawesome/free-regular-svg-icons": "^5.9.0",
+    "@fortawesome/free-solid-svg-icons": "^5.9.0"
+  },
+  "private": false
 }

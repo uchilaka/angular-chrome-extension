@@ -1,10 +1,9 @@
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { StartComponent } from './start.component';
+import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
+import { MyFontAwesomeModule } from '@larcity/ng-font-awesome';
 import { ButtonFabModule } from 'shared-components';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { MyFontAwesomeModule } from 'projects/my-font-awesome/src/public-api';
+import { StartComponent } from './start.component';
 
 @NgModule({
   declarations: [StartComponent],
