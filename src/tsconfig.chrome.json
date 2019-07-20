@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "outFile": "../dist/ng-chrome-extension/background.js",
+    "module": "system",
+    "types": ["chrome"],
+    "target": "es6"
+  },
+  "files": [
+    "./background.ts"
+  ],
+  "exclude": [
+    "**/*",
+    "../../node_modules"
+  ]
+}
