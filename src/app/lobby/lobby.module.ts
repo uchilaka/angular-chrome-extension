@@ -1,10 +1,9 @@
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { LobbyComponent } from './lobby.component';
+import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
+import { MyFontAwesomeModule } from '@larcity/ng-font-awesome';
 import { ButtonFabModule } from 'shared-components';
-import { MyFontAwesomeModule } from 'my-font-awesome';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { LobbyComponent } from './lobby.component';
 
 @NgModule({
   declarations: [LobbyComponent],

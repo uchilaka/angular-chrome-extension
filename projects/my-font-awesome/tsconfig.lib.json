@@ -28,5 +28,9 @@
   "exclude": [
     "src/test.ts",
     "**/*.spec.ts"
+  ],
+  "include": [
+    "**/*.ts",
+    "../my-font-awesome/src/public-api"
   ]
 }

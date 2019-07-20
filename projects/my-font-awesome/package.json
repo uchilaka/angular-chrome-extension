@@ -1,6 +1,11 @@
 {
-  "name": "my-font-awesome",
+  "name": "@larcity/ng-font-awesome",
   "version": "0.0.1",
+  "private": false,
+  "contributors": [
+    { "name": "Uche", "email": "uche@lar.city", "url": "https://medium.com/@uchechilaka" }
+  ],
+  "publisher": "LarCity LLC<http://lar.city>",
   "peerDependencies": {
     "@angular/common": "^7.2.0",
     "@angular/core": "^7.2.0",
@@ -9,5 +14,6 @@
     "@fortawesome/free-brands-svg-icons": "^5.9.0",
     "@fortawesome/free-regular-svg-icons": "^5.9.0",
     "@fortawesome/free-solid-svg-icons": "^5.9.0"
-  }
+  },
+  "license": "MIT",
 }

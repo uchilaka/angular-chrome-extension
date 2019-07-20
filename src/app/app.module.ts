@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { MyFontAwesomeModule } from 'my-font-awesome';
+import { MyFontAwesomeModule } from '@larcity/ng-font-awesome';
 import { RouterModule } from '@angular/router';
 import { appRoutes } from './app.routes';
 import { StartModule } from './start/start.module';
