@@ -9,6 +9,7 @@ import { appRoutes } from './app.routes';
 import { StartModule } from './start/start.module';
 import { LobbyModule } from './lobby/lobby.module';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,12 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     StartModule,
     LobbyModule
   ],
-  providers: [],
+  providers: [
+    {
+      provide: LocationStrategy,
+      useClass: HashLocationStrategy
+    }
+  ],
   bootstrap: [AppComponent],
   exports: [MyFontAwesomeModule]
 })

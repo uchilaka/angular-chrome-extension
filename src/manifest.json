@@ -1,0 +1,33 @@
+{
+  "name": "Hello Extension",
+  "description": "An example of an Angular chrome extension (with routing)",
+  "version": "0.0.0",
+  "manifest_version": 2,
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self';",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "icons": {
+    "16": "assets/logo@16px.png",
+    "32": "assets/logo@32px.png",
+    "64": "assets/logo@64px.png"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "alarms",
+    "notifications",
+    "storage",
+    "https://*.google.com/",
+    "webNavigation",
+    "activeTab",
+    "bookmarks",
+    "declarativeContent"
+  ],
+  "browser_action": {
+    "default_title": "Tina Assistant",
+    "default_icon": "assets/logo@64px.png",
+    "default_popup": "popup.html"
+  }
+}
