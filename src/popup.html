@@ -2,7 +2,12 @@
 <html>
   <head>
     <title>Tina's loading...</title>
+    <!-- @IMPORTANT MUST come before any meta based refresh -->
     <base href="/index.html" />
+    <!-- 
+      Operates in the context of the defined base above, 
+      and fails if base is not defined in this exact order 
+      -->
     <meta http-equiv="refresh" content="2;url=#/start" />
   </head>
   <body>
