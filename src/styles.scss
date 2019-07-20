@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  padding: 0;
+
+  // @TODO evaluate how to determine behavior with chrome-plugin context classes (popup vs. tab)
+  &.extension-popup {
+    width: 320px;
+    min-height: 320px;
+    max-height: 80vh;
+  }
+
+  .main {
+    padding: 0.75rem 1.25rem;
+  }
+}

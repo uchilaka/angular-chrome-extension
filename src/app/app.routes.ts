@@ -1,6 +1,6 @@
 import { Routes } from '@angular/router';
-import { StartComponent } from './start/start.component';
-import { LobbyComponent } from './lobby/lobby.component';
+import { StartComponent } from './containers/start/start.component';
+import { LobbyComponent } from './containers/lobby/lobby.component';
 
 export const appRoutes: Routes = [
   {
