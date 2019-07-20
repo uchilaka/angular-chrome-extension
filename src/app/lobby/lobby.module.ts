@@ -2,7 +2,7 @@ import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { MyFontAwesomeModule } from '@larcity/ng-font-awesome';
-import { ButtonFabModule } from 'shared-components';
+import { ButtonFabModule } from '@larcity/ng-chrome-shared-components';
 import { LobbyComponent } from './lobby.component';
 
 @NgModule({
